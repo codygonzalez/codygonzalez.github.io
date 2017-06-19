@@ -1,6 +1,8 @@
 body {
   color: black;
   font-size: 20px;
+  font-family: 'Overpass', sans-serif;
+  margin: 0 auto;
 }
 #nav {
   width: 100%;
@@ -8,16 +10,21 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+.img:hover {
+  transform: rotate(1440deg);
+  transition-duration: 5s;
+}
 .btn {
   font-size: 30px;
   color: black;
   text-decoration: none;
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat', cursive !important;
 }
+/* LEFT OUT SO AS TO SHOW THAT IS WHAT PAGE YOU'RE CURRENTLY ON.
 .btn1:hover {
   background-color: black;
   color: red !important;
-}
+}*/
 .btn2:hover {
   background-color: black;
   color: yellow !important;
@@ -31,13 +38,17 @@ body {
   color: blue !important;
 }
 img {
-  border: 10px solid pink;
+  border-radius: 50%;
   width: 200px;
   height: 200px;
 }
 .bio {
   text-align: center;
   margin-top: 10px;
+}
+p {
+  font-size: 18px;
+  word-spacing: 2px;
 }
 /*Mobile break point*/
 @media  (max-height: 700px) and (max-width: 770px) {
