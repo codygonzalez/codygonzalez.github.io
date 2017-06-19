@@ -17,12 +17,12 @@ img {
   border: 10px solid pink;
   width: 200px;
   height: 200px;
-  image-orientation: 90deg;
 }
 .bio {
   text-align: center;
-  margin: 100px;
+  margin-top: 10px;
 }
+/*Mobile break point*/
 @media  (max-height: 700px) and (max-width: 770px) {
   img, h3 {
     display: none;
@@ -32,5 +32,8 @@ img {
   }
   .btn {
     width: 100%;
+  }
+  .bio {
+    margin-top: 100px;
   }
 }
