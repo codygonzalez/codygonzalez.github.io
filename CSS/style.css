@@ -10,8 +10,25 @@ body {
 }
 .btn {
   font-size: 30px;
-  text-decoration: underline;
+  color: black;
+  text-decoration: none;
   font-family: 'Caveat', cursive;
+}
+/*.btn1:hover {
+  background-color: black;
+  color: red !important;
+}*/
+.btn2:hover {
+  background-color: black;
+  color: yellow !important;
+}
+.btn3:hover {
+  background-color: black;
+  color: green !important;
+}
+.btn4:hover {
+  background-color: black;
+  color: blue !important;
 }
 img {
   border: 10px solid pink;
