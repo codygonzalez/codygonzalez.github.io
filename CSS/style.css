@@ -14,10 +14,10 @@ body {
   text-decoration: none;
   font-family: 'Caveat', cursive;
 }
-/*.btn1:hover {
+.btn1:hover {
   background-color: black;
   color: red !important;
-}*/
+}
 .btn2:hover {
   background-color: black;
   color: yellow !important;
