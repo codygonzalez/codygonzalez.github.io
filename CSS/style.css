@@ -50,6 +50,11 @@ p {
   font-size: 18px;
   word-spacing: 2px;
 }
+.canvas-container {
+  width: 100%;
+  text-align: center;
+
+}
 /*Mobile break point*/
 @media  (max-height: 700px) and (max-width: 770px) {
   img, h3 {
